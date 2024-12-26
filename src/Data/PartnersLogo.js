@@ -46,3 +46,5 @@ export const partnersLogo = [
         logo: "/logos/9.png"
     },
 ]
+
+

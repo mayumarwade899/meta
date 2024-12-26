@@ -38,3 +38,5 @@ export const plans = [
         isPopular: false,
     },
 ]
+
+

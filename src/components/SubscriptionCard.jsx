@@ -13,7 +13,7 @@ function SubscriptionCard() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3 items-center mt-10 max-w-screen-xl">
         {plans.map((plan, index) => (
           <div key={index} className="flex flex-col justify-between relative border rounded-lg h-full p-6 bg-white/20 backdrop-blur-lg text-left hover:shadow-lg">
-            {plan.isPopular && <div className="absolute -top-6 left-0 bg-indigo-500 text-white px-2 py-1 rounded-t-lg w-full text-center">Popular</div>}
+            {plan.isPopular && <div className="absolute -top-1 left-0 bg-indigo-500 text-white px-2 py-1 rounded-t-lg w-full text-center">Popular</div>}
             <div>
               <div className="inline-flex items-end">
                 <h1 className="font-extrabold text-3xl">${plan.price}</h1>
@@ -49,3 +49,5 @@ function SubscriptionCard() {
 }
 
 export default SubscriptionCard;
+
+
